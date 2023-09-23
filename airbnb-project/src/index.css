@@ -6,6 +6,14 @@ input [type="text"],input[type="password"] {
     @apply w-full border my-1 py-2 px-3 rounded-2xl;
 }
 
+input [type="text"],input[type="email"] {
+    @apply w-full border my-1 py-2 px-3 rounded-2xl;
+}
+
+input [type="text"],input[type="text"] {
+    @apply w-full border my-1 py-2 px-3 rounded-2xl;
+}
+
 button{
     @apply bg-gray-300
 }
